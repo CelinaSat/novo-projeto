@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+#monitor-container {
+    display: flex; 
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background: white;
+    border: 2px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    transition: all 0.3s;
+}
+
+.alerta-critico {
+    background-color: #ffeded !important;
+    border-color: #e74c3c !important;
+}
+
+.alerta-critico .valor {
+    color: #e74c3c;
+}
